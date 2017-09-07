@@ -89,11 +89,6 @@ int main(int argc,char** arg)
   createTrackbar("threshold","hello4",&t,max,detect);
   detect(0,0);
    
-	
-
-	//cout<<"here\n";
 	waitKey(0);
-
-
 	return 0;
 }
